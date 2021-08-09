@@ -2,10 +2,16 @@
 ---
 
 @charset "utf-8";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss"; // (1)
+$theme-colors: (
+  primary: $red-700,
+);
 
-$base-color: #c6538c;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$base-color: $primary;
 
 body {
   background-color: $base-color;
