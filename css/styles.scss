@@ -1,6 +1,10 @@
 ---
 ---
 
+@charset "utf-8";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; // (1)
+
 $base-color: #c6538c;
 
 body {
